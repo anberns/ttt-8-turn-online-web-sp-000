@@ -10,17 +10,9 @@ puts "Where would you like to go?"
 input = gets.strip
 index = input_to_index(input)
 while !valid_move?(board, index)
-
+  puts "Where would you like to go?"
+  input = gets.strip
+  index = input_to_index(input)
+end
 move(board, index)
 display_board(board)
-
-
-ask for input
-get input
-convert input to index
-if index is valid
-  make the move for index
-  show the board
-else
-  ask for input again until you get a valid input
-end
