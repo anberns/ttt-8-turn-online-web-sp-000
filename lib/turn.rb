@@ -27,6 +27,10 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
+# code the #greeting method here!
+def greeting(name)
+  puts "Hello #{name}. It's nice to meet you."
+end
 
 
 ask for input
